@@ -36,7 +36,7 @@ const Sidebar=()=> {
               />
             )}
 
-            <span className="relative z-10 flex items-center gap-3 text-xs md:text-lg">
+            <span className="relative -ml-5 md:ml-0 z-10 flex items-center gap-3 text-xs md:text-lg">
               <Icon className={`w-4 md:w-${18}`}/>
               {item.name}
             </span>
