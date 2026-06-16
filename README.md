@@ -36,6 +36,12 @@ This project demonstrates a production-style frontend architecture with server-s
 
 ---
 
+## 🌐 Live Demo
+
+🔗 [View Live Project](https://learning-dashboard-assignment-six.vercel.app)
+
+---
+
 ## 🗄️ Database Schema (Supabase)
 
 Table: `courses`
@@ -85,28 +91,48 @@ git clone https://github.com/your-username/learning-dashboard.git
 2. **Navigate to the project directory:**
 
    
-```bash
-cd learning-dashboard
-```
+   ```bash
+   cd learning-dashboard
+   ```
 
 3. **Install dependencies:**
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 4. **⚙️ Environment Variables**
 
 To run this project locally, create a `.env` file in the root directory and add the following variables:
 
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
 
 
 4. **Run the development server:**
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
+
+---
+
+
+## 🧠 Key Learnings
+
+- Working with Next.js App Router and Server Components
+- Integrating Supabase as a backend service
+- Handling RLS (Row Level Security) policies
+- Building performant UI animations with Framer Motion
+- Structuring reusable component-based architecture
+
+---
+
+## 🚀 Future Improvements
+- Authentication (Supabase Auth)
+- Real-time updates using Supabase subscriptions
+- Drag-and-drop dashboard widgets
+- Dark/light theme toggle
+- Personalized user analytics
